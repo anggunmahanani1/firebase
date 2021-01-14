@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colorHijauTua"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOSEN UDINUS"
+        android:textStyle="bold"
+        android:background="@color/colorHijauTosca"
+        android:textAlignment="center"
+        android:textSize="20dp"></TextView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Kode    :"
+            android:textSize="20dp"></TextView>
+        <EditText
+            android:id="@+id/kodedsn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"></EditText>
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Nama           :"
+            android:textSize="20dp"></TextView>
+        <EditText
+            android:id="@+id/namadsn"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            tools:ignore="DuplicateIds"></EditText>
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="JENIS KELAMIN   :"
+            android:textSize="20dp"></TextView>
+
+        <RadioGroup
+            android:id="@+id/pilihanjk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:onClick="radioclick"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="laki-laki"
+                />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:onClick="radioclick"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="perempuan" />
+
+        </RadioGroup>
+
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+
+            android:text="LULUSAN  :"
+            android:textSize="20dp"></TextView>
+        <EditText
+            android:id="@+id/lldsn"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            tools:ignore="DuplicateIds"></EditText>
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="MASA KERJA  :"
+            android:textSize="20dp"></TextView>
+        <EditText
+            android:id="@+id/mkdsn"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            tools:ignore="DuplicateIds"></EditText>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/idbtsimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Update"
+            android:background="@color/colorBiru"
+            android:textSize="20dp"></Button>
+
+        <Button
+            android:id="@+id/idbthapus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hapus"
+            android:background="@color/colorMerah"
+            android:textSize="20dp"></Button>
+
+        <Button
+            android:id="@+id/idbttampil"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorHijauTosca"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:textSize="20dp"></Button>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "640447218553",
+    "project_id": "anggunmahananiprojek",
+    "storage_bucket": "anggunmahananiprojek.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640447218553:android:14506c6c2bb02025dea5a8",
+        "android_client_info": {
+          "package_name": "com.example.myfirebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640447218553-744v0jt4j2vcd1nfc7aftnpsqs8peims.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Wfv1RSTp7_1ptj3If1u1ZByqodllFKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640447218553-744v0jt4j2vcd1nfc7aftnpsqs8peims.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
